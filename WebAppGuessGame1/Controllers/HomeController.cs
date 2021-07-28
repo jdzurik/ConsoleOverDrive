@@ -39,7 +39,7 @@ namespace WebAppGuessGame1.Controllers
                 strSuccessMessage = "Congratulations! Your guess is correct";
 
             if (guess > randNum)
-                strSuccessMessage = "Your guess is higher";
+                strSuccessMessage = "Your guess is higher"; 
 
             return Content(strSuccessMessage);
         }
